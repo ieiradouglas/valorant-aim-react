@@ -14,6 +14,18 @@ function Home() {
                 />
                 <Card 
                     src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
+                    name="Mirinha 2"
+                />
+                <Card 
+                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
+                    name="Mirinha 3"
+                />
+                <Card 
+                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
+                    name="Mirinha 4"
+                />
+                <Card 
+                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
                     name="Mirinha"
                 />
             </Main>
