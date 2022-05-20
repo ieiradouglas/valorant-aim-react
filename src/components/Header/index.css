@@ -59,12 +59,12 @@ main {
 }
 .aim-block:hover {
     transition:0.4s;
-    transform:scale(1.5);
+    transform:scale(1.2);
     border: 1px solid white;
 }
 
 .aim-img {
-    width: 100%;
+    min-width: 100%;
 }
 
 .aim-description {
