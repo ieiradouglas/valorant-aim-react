@@ -3,6 +3,8 @@
     --cor-texto:#FF4655;
     --background-texto:#121629;
     --cor-texto-mira:#FFFFFF;
+    --aim-description: #121629;
+    
 }
 
 * {
@@ -13,6 +15,7 @@
 ul {
     list-style: none;
 }
+
 body {
     background: #232946;
     font-size:26px;
@@ -58,8 +61,6 @@ main {
     flex:1;
 }
 .aim-block:hover {
-    transition:0.4s;
-    transform:scale(1.2);
     border: 1px solid white;
 }
 
