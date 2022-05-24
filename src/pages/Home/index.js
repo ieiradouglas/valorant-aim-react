@@ -2,32 +2,20 @@ import React from 'react'
 import Header from '../../components/Header'
 import Card from '../../components/Card'
 import Main from '../../components/Main'
+import miras from "../../assets/data/miras"
 
 function Home() {
     return (
         <>
             <Header/>
             <Main>
-                <Card 
-                    src="https://i.picsum.photos/id/492/200/300.jpg?hmac=qSBjlTNMOPN_ejfPwtAFG_nI_v4XCzpwib3c4miH4fM"
-                    name="Mirinha"
-                />
-                <Card 
-                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
-                    name="Mirinha 2"
-                />
-                <Card 
-                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
-                    name="Mirinha 3"
-                />
-                <Card 
-                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
-                    name="Mirinha 4"
-                />
-                <Card 
-                    src="https://i.picsum.photos/id/186/200/300.jpg?hmac=OcvCqU_4x7ik3BASnw4WmwKaS-Sv167Nmf5CJoTrIUs"
-                    name="Mirinha"
-                />
+                {miras.map(mira=>
+                    <Card 
+                        src={mira.src}
+                        name={mira.nome}
+                        alt={mira.alt}
+                    />
+                )}
             </Main>
         </>
     ) 

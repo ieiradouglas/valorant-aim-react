@@ -6,7 +6,7 @@ function Header() {
     return(
         <header>
             <div class="header">
-                <img class="logo" src={Logo} width='150px' title="Valorant logo" description="Logo do valorant atual."/>
+                <img className="logo" src={Logo} width='150px' title="Valorant logo" description="Logo do valorant atual."/>
             </div>
         </header>
     )
