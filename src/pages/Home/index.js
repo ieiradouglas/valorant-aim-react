@@ -4,11 +4,14 @@ import Card from '../../components/Card'
 import Main from '../../components/Main'
 import miras from "../../assets/data/miras"
 
+import Modal from "../../components/Modal"
+
 function Home() {
     return (
         <>
             <Header/>
             <Main>
+                <Modal/>
                 {miras.map(mira=>
                     <Card 
                         src={mira.src}

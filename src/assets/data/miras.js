@@ -2,7 +2,9 @@ const miras = [
     {
         "nome":"Vasco",
         "src":"https://images2.imgbox.com/22/01/NS47dhNU_o.png",
-        "alt":"Mira do vasco"
+        "alt":"Mira do vasco",
+        "internas":[1,1,6,0],
+        "externas":[1,1,4,3]
     },
     {
         "nome":"Instagram",
