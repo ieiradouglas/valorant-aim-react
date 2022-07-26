@@ -1,6 +1,5 @@
 import React from 'react'
 import "./index.css"
-import miras from "../../assets/data/miras"
 
 function Modal() {
     return(
