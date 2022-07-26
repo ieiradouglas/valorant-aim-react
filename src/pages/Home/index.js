@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Header from '../../components/Header/index.js'
 import Card from '../../components/Card/index.js'
 import Main from '../../components/Main/index.js'
@@ -7,28 +7,36 @@ import Main from '../../components/Main/index.js'
 import {getCrosshair} from "../../firebase/mira.js"
 
 function Home() {
+    const [miras, setMiras] = useState([]);
 
-    async function fetchAim(){
-        return getCrosshair().then(aims => console.log(aims))
+    function fetchAims() {
+        return getCrosshair().then(mira => mira)
     }
 
-    let miras = fetchAim();
+    async function start(){
+        let dados = await fetchAims();
+        
+        {setMiras(dados)}
+        
+    }
+    start();
 
-    console.log(miras)
-    
     return (
         <>
             <Header/>
             <Main>
-                {/* <Modal/> */}
-                {/* {miras.map(mira=>
+                
+                {
+                    
+                miras.map(mira=>
                     <Card 
+                        key={mira.nome}
                         src={mira.src}
                         name={mira.nome}
                         alt={mira.alt}
-                    />
+                    />)
+                }
                 
-                )} */}
             </Main>
         </>
     ) 
