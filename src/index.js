@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
-import Home from './pages/Home/index'
+import Home from './pages/Home/index.js'
 
 const Pagina404 = () => (
   <>

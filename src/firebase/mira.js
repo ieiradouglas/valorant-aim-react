@@ -4,7 +4,7 @@ import app from "./firebase.js";
 
 const dbRef = ref(getDatabase());
 
-async function getCrosshair(){
+export async function getCrosshair(){
     return get(child(dbRef, `crosshair`))
     .then((snapshot) => snapshot.val())
     /* .catch((erro)=>{
@@ -12,8 +12,3 @@ async function getCrosshair(){
     }) */
 }
 
-let dados = await getCrosshair();
-
-console.log(dados);
-
-export default getCrosshair();

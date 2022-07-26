@@ -4,7 +4,7 @@ import "./index.css"
 function Modal() {
     return(
         <>
-            <div className="modal">
+            {/* <div className="modal">
                 <span className="btClose">X</span>
                 <div className="imgContainer">
                     <img src={miras[0].src}/>
@@ -25,7 +25,7 @@ function Modal() {
                     </ul>
                 </div>
             </div>
-        
+         */}
         </>
     )
 }
