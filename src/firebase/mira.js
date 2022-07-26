@@ -7,8 +7,8 @@ const dbRef = ref(getDatabase());
 export async function getCrosshair(){
     return get(child(dbRef, `crosshair`))
     .then((snapshot) => snapshot.val())
-    /* .catch((erro)=>{
+    .catch((erro)=>{
         console.log(erro);
-    }) */
+    })
 }
 
