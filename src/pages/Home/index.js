@@ -7,6 +7,7 @@ import Main from '../../components/Main/index.js'
 import {getCrosshair} from "../../firebase/mira.js"
 
 function Home() {
+
     const [miras, setMiras] = useState([]);
 
     function fetchAims() {
@@ -15,28 +16,25 @@ function Home() {
 
     async function start(){
         let dados = await fetchAims();
-        
         {setMiras(dados)}
-        
     }
+    
     start();
 
     return (
         <>
             <Header/>
             <Main>
-                
                 {
-                    
                 miras.map(mira=>
                     <Card 
                         key={mira.nome}
                         src={mira.src}
                         name={mira.nome}
                         alt={mira.alt}
+                        cod={mira.codigo}
                     />)
                 }
-                
             </Main>
         </>
     ) 

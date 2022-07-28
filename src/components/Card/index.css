@@ -1,0 +1,41 @@
+.aim-block {
+    display: flex;
+    flex-direction:column;
+    margin: 20px;
+    max-width: 230px;
+    flex:1;
+}
+
+.aim-block:hover {
+    border: 1px solid white;
+}
+
+.aim-img {
+    min-width: 100%;
+    height: 150px;
+}
+
+.aim-description {
+    text-align: center;
+    background:var(--background-texto);
+    color: var(--cor-texto-mira);
+    font-family: "Rowdies";
+    font-weight: 300;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy-img {
+    margin-top: 5px;
+    margin-right: 5px;
+    width:30px;
+    position: absolute;
+    align-self: flex-end;
+}
+
+.copy-img:hover {
+    background: white;
+    border-radius:10px;
+}
