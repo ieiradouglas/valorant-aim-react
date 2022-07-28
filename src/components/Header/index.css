@@ -39,11 +39,6 @@ header {
     justify-content: center;
     
 }
-main {
-    display: flex;
-    justify-content: center;
-}
-
 
 .contents {
     display: flex;

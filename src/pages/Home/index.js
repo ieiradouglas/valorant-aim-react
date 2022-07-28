@@ -2,29 +2,28 @@ import React, {useState} from 'react'
 import Header from '../../components/Header/index.js'
 import Card from '../../components/Card/index.js'
 import Main from '../../components/Main/index.js'
+import Load from '../../components/Load/index.js'
+import Notification from "../../components/notification/index.js"
 /* import Modal from "../../components/Modal/index.js" */
 
 import {getCrosshair} from "../../firebase/mira.js"
 
 function Home() {
-
     const [miras, setMiras] = useState([]);
-
     function fetchAims() {
         return getCrosshair().then(mira => mira)
     }
-
     async function start(){
         let dados = await fetchAims();
         {setMiras(dados)}
     }
-    
     start();
 
     return (
         <>
             <Header/>
             <Main>
+               
                 {
                 miras.map(mira=>
                     <Card 
@@ -35,7 +34,9 @@ function Home() {
                         cod={mira.codigo}
                     />)
                 }
+                
             </Main>
+            <Notification />
         </>
     ) 
 }
