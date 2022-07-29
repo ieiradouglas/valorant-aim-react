@@ -6,26 +6,23 @@ import Load from '../../components/Load/index.js'
 import Notification from "../../components/notification/index.js"
 /* import Modal from "../../components/Modal/index.js" */
 
-import {getCrosshair} from "../../firebase/mira.js"
+import miras from "../../assets/data.json"
 
 function Home() {
-    const [miras, setMiras] = useState([]);
-    function fetchAims() {
-        return getCrosshair().then(mira => mira)
-    }
-    async function start(){
-        let dados = await fetchAims();
-        {setMiras(dados)}
-    }
-    start();
+    let complete = true;
+
+    setTimeout(()=>{
+        complete = false;
+        console.log(complete)
+    },4000)
 
     return (
         <>
             <Header/>
+            <Load/>
             <Main>
-               
                 {
-                miras.map(mira=>
+                    miras.crosshair.map(mira=>
                     <Card 
                         key={mira.nome}
                         src={mira.src}
@@ -34,7 +31,6 @@ function Home() {
                         cod={mira.codigo}
                     />)
                 }
-                
             </Main>
             <Notification />
         </>

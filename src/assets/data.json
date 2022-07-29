@@ -1,0 +1,124 @@
+{
+  "crosshair": [
+    {
+      "alt": "Mira do vasco",
+      "codigo": "0;c;1;P;c;7;h;0;0t;6;0l;1;0o;0;0a;1;0f;0;1t;4;1l;1;1o;3;1a;1;1m;0;1f;0",
+      "nome": "Vasco",
+      "src": "https://i.imgur.com/YEdRbfN.png"
+    },
+    {
+      "alt": "Mira do Instagram",
+      "codigo": "0;P;c;4;h;0;d;1;s;0;0t;4;0l;1;0o;2;0a;1;0f;0;1t;10;1l;1;1o;5;1a;1;1m;0;1f;0",
+      "nome": "Instagram",
+      "src": "https://i.imgur.com/TBye21u.png"
+    },
+    {
+      "alt": "Mira Braba",
+      "codigo": "0;c;1;P;c;5;o;1;0t;1;0l;3;0o;2;0a;1;0f;0;1b;0",
+      "nome": "Braba",
+      "src": "https://i.imgur.com/4HDSOAX.png"
+    },
+    {
+      "alt": "Mira Quadrada",
+      "codigo": "0;c;1;P;c;3;h;0;d;1;z;3;s;0;0b;0;1b;0",
+      "nome": "Quadrada",
+      "src": "https://i.imgur.com/OL10LTx.png"
+    },
+    {
+      "alt": "Mira Padrão",
+      "codigo": "0;P;h;0;s;0;0l;8;0a;1;0f;0;1b;0",
+      "nome": "Padrão",
+      "src": "https://i.imgur.com/6j6KGox.png"
+    },
+    {
+      "alt": "Sushiboys",
+      "codigo": "0;P;c;5;h;0;f;0;0l;5;0o;2;0a;1;0f;0;1b;0",
+      "nome": "Sushiboys",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FXerxia%2Fsushiboys-Xerxia.jpg?alt=media&token=dcf2efe5-a1bd-43aa-b4b8-14e4b9669000"
+    },
+    {
+      "alt": "Surf",
+      "codigo": "0;s;1;P;c;5;h;0;f;0;0l;4;0o;2;0a;1;0f;0;1b;0;S;o;1",
+      "nome": "Surf",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FXerxia%2Fsurf-Xerxia.jpg?alt=media&token=bc54b4b8-ee96-4ab2-ba1e-7fa65f982679"
+    },
+    {
+      "alt": "Sscary",
+      "codigo": "0;s;1;P;c;5;o;1;d;1;z;3;f;0;s;0;0b;0;1b;0",
+      "nome": "Sscary",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FXerxia%2Fsscary-Xerxia.jpg?alt=media&token=903d85fb-eae2-4681-801d-c73ce88b57c9"
+    },
+    {
+      "alt": "foxz",
+      "codigo": "0;P;c;1;h;0;f;0;0l;5;0o;2;0a;1;0f;0;1b;0",
+      "nome": "foxz",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FXerxia%2Ffoxz-Xerxia.jpg?alt=media&token=c9d85280-05e7-4637-8741-44f0acd4d159"
+    },
+    {
+      "alt": "Crws",
+      "codigo": "0;c;1;s;1;P;c;1;h;0;0l;3;0o;2;0a;1;0f;0;1b;0;S;c;1;s;0.884;o;0.798",
+      "nome": "Crws",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FXerxia%2Fcrws-Xerxia.jpg?alt=media&token=93a84c13-f3d0-40b0-bb97-cd6e3040fb6e"
+    },
+    {
+      "alt": "Nukkye",
+      "codigo": "0;s;1;P;o;1;d;1;f;0;0b;0;1b;0;S;s;0.85;o;1",
+      "nome": "Nukkye",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FG2Esports%2Fnukkye-G2Sports.jpg?alt=media&token=94e685c1-fe7c-41c6-92d9-ab75908d034d"
+    },
+    {
+      "alt": "m1xwell",
+      "codigo": "0;s;1;P;c;1;o;1;d;1;0b;0;1b;0;S;s;0.335",
+      "nome": "m1xwell",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FG2Esports%2Fm1xwell-G2Sports.jpg?alt=media&token=a2b03e04-77e5-4bd6-8a6f-e4c22f5871d2"
+    },
+    {
+      "alt": "Meddo",
+      "codigo": "0;P;c;1;h;0;0b;0;1l;3;1o;2;1a;1;1m;0;1f;0",
+      "nome": "Meddo",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FG2Esports%2FMeddo-G2Sports.jpg?alt=media&token=291ec67f-9303-4709-a287-52fefd2791da"
+    },
+    {
+      "alt": "hoody",
+      "codigo": "0;s;1;P;o;1;d;1;f;0;0b;0;1b;0;S;s;0.85;o;1",
+      "nome": "hoody",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FG2Esports%2Fhoody-G2Sports.jpg?alt=media&token=4700f029-87e2-470e-bb20-0d66001fab97"
+    },
+    {
+      "alt": "AvovA",
+      "codigo": "0;P;c;5;o;1;0t;1;0l;3;0o;1;0a;1;0f;0;1b;0",
+      "nome": "AvovA",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FG2Esports%2FAvovA-G2Sports.jpg?alt=media&token=4d116b2d-8c1e-4d78-944d-611d4f59345e"
+    },
+    {
+      "alt": "valyn",
+      "codigo": "0;s;1;P;h;0;f;0;0l;5;0o;0;0a;1;0f;0;1b;0",
+      "nome": "valyn",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FTheGuard%2Fvalyn-TheGuard.jpg?alt=media&token=b453c21a-6b50-4c2b-bd2f-d9bfe249840e"
+    },
+    {
+      "alt": "trent",
+      "codigo": "0;P;c;5;h;0;0l;4;0o;2;0a;1;0f;0;1a;0;1m;0;1f;0",
+      "nome": "trent",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FTheGuard%2Ftrent-TheGuard.jpg?alt=media&token=22ee5461-5f53-4143-82b5-409ed1ac9b46"
+    },
+    {
+      "alt": "Sayaplayer",
+      "codigo": "0;s;1;P;c;1;0t;1;0l;3;0o;1;0a;1;0f;0;1b;0;S;c;1;s;0.75;o;1",
+      "nome": "Sayaplayer",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FTheGuard%2Fsayaplayer-TheGuard.jpg?alt=media&token=d5c43fa2-6ae8-4887-8b76-fb493b09f0ab"
+    },
+    {
+      "alt": "net",
+      "codigo": "0;P;c;1;h;0;m;1;0l;4;0o;2;0a;1;0f;0;1t;6;1l;0;1o;3;1a;0;1m;0;1f;0",
+      "nome": "net",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FTheGuard%2Fnet-TheGuard.jpg?alt=media&token=0dcb4f32-8eb1-4fea-844e-a349fd79851a"
+    },
+    {
+      "alt": "Jonahp",
+      "codigo": "0;P;c;5;o;1;0t;1;0l;3;0o;1;0a;1;0f;0;1b;0",
+      "nome": "Jonahp",
+      "src": "https://firebasestorage.googleapis.com/v0/b/aim-valorant-c14c2.appspot.com/o/aims%2FTheGuard%2FJonahp-TheGuard.jpg?alt=media&token=e3c6a40a-aa9b-47ff-b328-1d542c24115a"
+    }
+  ]
+}
