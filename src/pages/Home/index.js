@@ -6,24 +6,36 @@ import Load from '../../components/Load/index.js'
 import Notification from "../../components/notification/index.js"
 /* import Modal from "../../components/Modal/index.js" */
 
+import toast, { Toaster } from 'react-hot-toast';
+import copy from "copy-to-clipboard"
+
 import miras from "../../assets/data.json"
 
 function Home() {
-    let complete = true;
+    function copyToClipBoard(event){
+        copy(event.target.alt);
+    }
 
-    setTimeout(()=>{
-        complete = false;
-        console.log(complete)
-    },4000)
+    const notify = (event) => toast.success(`Copiado`)
 
     return (
         <>
+            <div><Toaster  
+                toastOptions={{
+                    position:"bottom-left",
+                   style:{
+                    padding:"10px",
+                    fontSize:"1rem"
+                   } 
+                }}
+            /></div>
             <Header/>
             <Load/>
             <Main>
                 {
                     miras.crosshair.map(mira=>
                     <Card 
+                        onClick={(event)=>{copyToClipBoard(event);notify()}}
                         key={mira.nome}
                         src={mira.src}
                         name={mira.nome}
