@@ -3,7 +3,6 @@ import Header from '../../components/Header/index.js'
 import Card from '../../components/Card/index.js'
 import Main from '../../components/Main/index.js'
 import Load from '../../components/Load/index.js'
-import Notification from "../../components/notification/index.js"
 /* import Modal from "../../components/Modal/index.js" */
 
 import toast, { Toaster } from 'react-hot-toast';
@@ -44,7 +43,6 @@ function Home() {
                     />)
                 }
             </Main>
-            <Notification />
         </>
     ) 
 }
