@@ -4,9 +4,8 @@
 
 Essa documentação visa apenas informar o objetivo do projeto.
 ![image](https://github.com/ieiradouglas/valorant-aim-react/assets/44785888/5d21c31f-68a1-49a9-babf-32902e2d80dc)
-
 ![image](https://github.com/ieiradouglas/valorant-aim-react/assets/44785888/b9761d5b-d2b0-46ce-af8c-8cb2fb890e8d)
-
+![image](https://github.com/ieiradouglas/valorant-aim-react/assets/44785888/2229cf49-63fe-4f40-b599-e7ee8593042c)
 
 ## Descrição do Projeto
 
@@ -27,6 +26,10 @@ O projeto consiste em um site onde é possível copiar o código da mira para qu
 
 -   HTML5, CSS3 e React para criação da interface
 -   Javascript para funcionalidades dinâmicas
+
+## Visite o site
+
+https://aimlorant.vercel.app/
 
 ## Instalação
 
